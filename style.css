@@ -144,14 +144,14 @@ span {
 }
 
 .imagem-intro {
-  margin-left: 32rem;
+  margin-left: 29.5rem;
 margin-top: -30rem;
 width: 582px;
 height: 489px;
 }
 
 .rodape-meio {
-  margin-left: 700px;
+  margin-left: 500px;
   display: inline-block;
   margin-bottom: 15rem;
 }
@@ -179,17 +179,58 @@ height: 489px;
   color: blueviolet;
   font-size: 60px;
   margin-left: 80px;
+
+}
+
+.servicos-bg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-bottom: 15rem;
 }
 
-.introducao-servicos {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.servicos1 span {
+  display: inline-block;
+  color: blueviolet;
+  border: solid;
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+  border-radius: 24px;
+  border-width: 3px;
+  font-size: 25px;
+  margin-left: 80px;
 }
 
-.introducao-servicos span {
-display: inline-block;
-   margin-left: 80px;
+.servicos1 h1 {
+  font-size: 40px;
+  width: 25ch;
+  margin-left: 80px;
+}
+
+.servicos1 p {
+  color: #817f7f;
+  font-size: 18px;
+}
+
+.servicos1-imagem {
+  margin-top: -10rem;
+  margin-left: 40rem;
+}
+
+
+.servicos2-bg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 15rem;
+}
+
+.servicos2-img {
+  margin-top: -5rem;
+  margin-left: 80px;
+}
+
+.servicos2 span {
+  display: inline-block;
   color: blueviolet;
   border: solid;
   width: 20px;
@@ -199,32 +240,50 @@ display: inline-block;
   border-width: 3px;
   font-size: 25px;
 }
-
-.introducao-servicos h1 {
-  display: inline-block;
-  margin-bottom: -6rem;
-  width: 25ch;
+.servicos2 h1 {
   font-size: 40px;
-  margin-left: 80px;
+  width: 25ch;
 }
 
-.introducao-servicos p {
-  margin-top: -0px;
+.servicos2 p {
   font-size: 18px;
-  margin-left: 80px;
+  width: 60ch;
+  color: rgb(145, 143, 143);
 }
 
-.servicos-bg {
+.servicos2 {
+  margin-left: 34rem;
+}
+
+.servicos3-bg {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.introducao-servicos h1, p {
-  grid-column: 1;
+.servicos3 span {
+  display: inline-block;
+  color: blueviolet;
+  border: solid;
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+  border-radius: 24px;
+  border-width: 3px;
+  font-size: 25px;
+  margin-left: 80px;
+}
+.servicos3 h1 {
+  font-size: 40px;
+  width: 25ch;
+  margin-left: 80px;
 }
 
- .servicos-img  {
-  width: 500x;
-  height: 561px;
-  margin-left: 40rem;
+.servicos3 p {
+  font-size: 18px;
+  width: 60ch;
+  margin-left: 80px;
+}
+
+.servicos3-img {
+  margin-left: 30rem;
 }
