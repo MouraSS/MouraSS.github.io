@@ -66,6 +66,7 @@ a {
 }
 
 .introducao-bg {
+  background-color: aqua;
 padding-bottom: 15rem;
 }
 
@@ -144,7 +145,7 @@ span {
 }
 
 .imagem-intro {
-  margin-left: 26rem;
+  margin-left: 20rem;
 margin-top: -30rem;
 width: 582px;
 height: 489px;
@@ -214,7 +215,7 @@ height: 489px;
 
 .servicos1-imagem {
   margin-top: -10rem;
-  margin-left: 35rem;
+  margin-left: 30rem;
 }
 
 
@@ -252,7 +253,7 @@ height: 489px;
 }
 
 .servicos2 {
-  margin-left: 34rem;
+  margin-left: 30rem;
 }
 
 .servicos3-bg {
@@ -286,7 +287,7 @@ height: 489px;
 }
 
 .servicos3-img {
-  margin-left: 25rem;
+  margin-left: 20rem;
 }
 
 .servicos4-bg {
@@ -323,5 +324,5 @@ height: 489px;
 }
 
 .servicos4 {
-  margin-left: 34rem;
+  margin-left: 25rem;
 }
