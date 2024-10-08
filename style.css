@@ -1,0 +1,230 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 1000rem;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-bg {
+  margin-bottom: 0rem;
+  padding-top: 24px;
+  padding-bottom: 15rem;
+}
+
+.header img {
+  padding-left: 80px;
+  width: 7%;
+}
+
+.header-menu {
+  padding: 16px 0px
+  font-size: 1.5rem;
+  display: flex;
+  gap: 50px;
+}
+
+.header-menu a {
+  display: inline-block;
+  padding: 1.2rem;
+  color: rgb(112, 111, 111);
+  font-size: 1.5rem;
+  display: flex;
+  gap: 120px;
+}
+
+.logar {
+  display: inline-block;
+  margin-right: 80px;
+  margin-left: 80px;
+  color: rgb(206, 206, 206);
+  display: inline-block;
+  border: 1px solid rgb(192, 192, 192);
+  border-width: 3px;
+  border-radius: 28px;
+}
+
+.header-logar a {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  padding: 1.2rem;
+}
+
+.introducao-bg {
+padding-bottom: 15rem;
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.introducao h1 {
+  grid-column: 1;
+  font-size: 50px;
+  margin-left: 80px;
+  max-width: 20ch;
+}
+
+span {
+  color: blueviolet;
+}
+
+.introducao p {
+  grid-column: 1;
+  font-size: 18px;
+  margin-left: 80px;
+  max-width: 60ch;
+}
+
+.introducao ul {
+  display: inline-block;
+  grid-column: 1;
+  margin-left: 60px;
+}
+
+.introducao ul {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.criar-cor {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  background-color: blueviolet;
+  padding: 20px 40px;
+  border-radius: 24px;
+}
+
+.criar-border {
+  color: black;
+  display: inline-block;
+  padding: 20px 40px;
+  border: 1px solid rgb(192, 192, 192);
+  border-width: 3px;
+  border-radius: 28px;
+}
+
+
+.logos-sociais {
+  display: inline-block;
+  grid-column: 1;
+  margin-left: 80px;
+
+}
+
+.instagram-logo {
+  width: 2.2rem;
+}
+
+.twitter-logo {
+  width: 2.2rem;
+  margin-left: 2rem;
+}
+
+.introducao-imagem {
+  display: inline-block
+  grid-column: 2;
+}
+
+.imagem-intro {
+  margin-left: 32rem;
+margin-top: -30rem;
+width: 582px;
+height: 489px;
+}
+
+.rodape-meio {
+  margin-left: 700px;
+  display: inline-block;
+  margin-bottom: 15rem;
+}
+
+.rodape-meio h1 {
+  font-size: 32px;
+  max-width: 80ch;
+}
+
+.rodape-p {
+  color: rgb(109, 107, 107);
+  margin-left: 220px;
+  font-size: 26px;
+}
+
+.p-inferior {
+  color: rgb(109, 107, 107);
+  margin-left: 150px;
+  max-width: 62ch;
+  font-size: 21px; 
+}
+
+.servicos h1 {
+  margin-bottom: 0px;
+  color: blueviolet;
+  font-size: 60px;
+  margin-left: 80px;
+  margin-bottom: 15rem;
+}
+
+.introducao-servicos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.introducao-servicos span {
+display: inline-block;
+   margin-left: 80px;
+  color: blueviolet;
+  border: solid;
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+  border-radius: 24px;
+  border-width: 3px;
+  font-size: 25px;
+}
+
+.introducao-servicos h1 {
+  display: inline-block;
+  margin-bottom: -6rem;
+  width: 25ch;
+  font-size: 40px;
+  margin-left: 80px;
+}
+
+.introducao-servicos p {
+  margin-top: -0px;
+  font-size: 18px;
+  margin-left: 80px;
+}
+
+.servicos-bg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.introducao-servicos h1, p {
+  grid-column: 1;
+}
+
+ .servicos-img  {
+  width: 500x;
+  height: 561px;
+  margin-left: 40rem;
+}
