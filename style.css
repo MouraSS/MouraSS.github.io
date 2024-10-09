@@ -66,6 +66,7 @@ a {
 }
 
 .introducao-bg {
+  background-color: aqua;
 padding-bottom: 15rem;
 }
 
@@ -144,7 +145,7 @@ span {
 }
 
 .imagem-intro {
-  margin-left: 20rem;
+  margin-left: 25rem;
 margin-top: -30rem;
 width: 582px;
 height: 489px;
