@@ -66,7 +66,6 @@ a {
 }
 
 .introducao-bg {
-  background-color: blue;
 padding-bottom: 15rem;
 }
 
@@ -217,7 +216,7 @@ height: 489px;
 
 .servicos1-imagem {
   margin-top: 8rem;
-  margin-left: 15rem;
+  margin-left: 21.5rem;
 }
 
 
@@ -335,6 +334,7 @@ height: 489px;
 .servicos5-bg {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 15rem;
 }
 
 .servicos5 span {
@@ -366,4 +366,18 @@ height: 489px;
 
 .servicos5-imagem {
   margin-left: 20rem;
+}
+
+.final1-bg {
+  background-color: aqua;
+}
+
+.final1 h1 {
+  font-size: 60px;
+  margin-left: 80px;
+}
+
+.final1 p {
+  font-size: 18px;
+  color: #7a7979;
 }
