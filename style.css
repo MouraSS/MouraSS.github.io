@@ -66,7 +66,6 @@ a {
 }
 
 .introducao-bg {
-  background-color: aqua;
 padding-bottom: 15rem;
 }
 
@@ -145,7 +144,7 @@ span {
 }
 
 .imagem-intro {
-  margin-left: 20rem;
+  margin-left: 10rem;
 margin-top: -30rem;
 width: 582px;
 height: 489px;
@@ -164,7 +163,7 @@ height: 489px;
 
 .rodape-p {
   color: rgb(109, 107, 107);
-  margin-left: 220px;
+  margin-left: 200px;
   font-size: 26px;
 }
 
@@ -215,7 +214,7 @@ height: 489px;
 
 .servicos1-imagem {
   margin-top: -10rem;
-  margin-left: 30rem;
+  margin-left: 15rem;
 }
 
 
@@ -253,7 +252,7 @@ height: 489px;
 }
 
 .servicos2 {
-  margin-left: 30rem;
+  margin-left: 15rem;
 }
 
 .servicos3-bg {
@@ -287,13 +286,13 @@ height: 489px;
 }
 
 .servicos3-img {
-  margin-left: 20rem;
+  margin-left: 15rem;
 }
 
 .servicos4-bg {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: aqua;
+  margin-bottom: 15rem;
 }
 
 .servicos4 span {
@@ -324,5 +323,42 @@ height: 489px;
 }
 
 .servicos4 {
-  margin-left: 25rem;
+  margin-left: 15rem;
+}
+
+.servicos5-bg {
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.servicos5 span {
+  display: inline-block;
+  color: blueviolet;
+  border: solid;
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+  border-radius: 24px;
+  border-width: 3px;
+  font-size: 25px;
+  margin-left: 80px;
+}
+
+.servicos5 h1, p {
+  margin-left: 80px;
+}
+
+.servicos5 h1 {
+  width: 25ch;
+  font-size: 40px;
+}
+
+.servicos5 p {
+  width: 55ch;
+  font-size: 18px;
+}
+
+.servicos5-imagem {
+  margin-left: 15rem;
 }
