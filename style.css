@@ -66,7 +66,7 @@ a {
 }
 
 .introducao-bg {
-  background-color: aqua;
+  background-color: blue;
 padding-bottom: 15rem;
 }
 
@@ -145,7 +145,7 @@ span {
 }
 
 .imagem-intro {
-  margin-left: 25rem;
+  margin-left: 17rem;
 margin-top: -30rem;
 width: 582px;
 height: 489px;
@@ -200,6 +200,7 @@ height: 489px;
   border-width: 3px;
   font-size: 25px;
   margin-left: 80px;
+  margin-top: 15rem;
 }
 
 .servicos1 h1 {
@@ -209,12 +210,13 @@ height: 489px;
 }
 
 .servicos1 p {
+  margin-left: 0px;
   color: #817f7f;
   font-size: 18px;
 }
 
 .servicos1-imagem {
-  margin-top: -10rem;
+  margin-top: 8rem;
   margin-left: 15rem;
 }
 
@@ -247,13 +249,14 @@ height: 489px;
 }
 
 .servicos2 p {
+  margin-left: -0px;
   font-size: 18px;
   width: 60ch;
   color: rgb(145, 143, 143);
 }
 
 .servicos2 {
-  margin-left: 15rem;
+  margin-left: 20rem;
 }
 
 .servicos3-bg {
@@ -281,13 +284,14 @@ height: 489px;
 }
 
 .servicos3 p {
+ margin-left: -20px;
   font-size: 18px;
   width: 60ch;
   margin-left: 80px;
 }
 
 .servicos3-img {
-  margin-left: 15rem;
+  margin-left: 16.5rem;
 }
 
 .servicos4-bg {
@@ -310,6 +314,7 @@ height: 489px;
 }
 
 .servicos4 h1 {
+  margin-left: 80px;
   width: 25ch;
   font-size: 40px;
 }
@@ -328,7 +333,6 @@ height: 489px;
 }
 
 .servicos5-bg {
-  background-color: aqua;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -361,5 +365,5 @@ height: 489px;
 }
 
 .servicos5-imagem {
-  margin-left: 15rem;
+  margin-left: 20rem;
 }
