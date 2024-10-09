@@ -52,11 +52,19 @@ a {
   display: inline-block;
   margin-right: 80px;
   margin-left: 80px;
-  color: rgb(206, 206, 206);
   display: inline-block;
   border: 1px solid rgb(192, 192, 192);
   border-width: 3px;
   border-radius: 28px;
+  transition: background-color 1.5s ease, color 1s ease;
+}
+
+.header-logar a:hover {
+  border-width: 3px;
+  border-radius: 28px;
+  background-color: rgb(122, 121, 121);
+  transition: background-color 1.5s ease, color 1s ease;
+  color: azure;
 }
 
 .header-logar a {
@@ -112,6 +120,12 @@ span {
   border-radius: 24px;
 }
 
+.criar-cor:hover {
+  transition: background-color 1.5s ease, color 1s ease;
+  color: rgb(47, 12, 63);
+  background-color:rgb(250, 9, 230)
+}
+
 .criar-border {
   color: black;
   display: inline-block;
@@ -121,6 +135,11 @@ span {
   border-radius: 28px;
 }
 
+.criar-border:hover {
+  transition: background-color 1.5s ease, color 1s ease;
+  color: rgb(255, 255, 255);
+  background-color: rgb(221, 15, 248);
+}
 
 .logos-sociais {
   display: inline-block;
@@ -131,11 +150,21 @@ span {
 
 .instagram-logo {
   width: 2.2rem;
+  transition: transform 1s ease;
+}
+
+.instagram-logo:hover {
+  transform: rotate(360deg);
 }
 
 .twitter-logo {
   width: 2.2rem;
   margin-left: 2rem;
+  transition: transform 1s ease;
+}
+
+.twitter-logo:hover {
+  transform: rotate(360deg);
 }
 
 .introducao-imagem {
@@ -200,6 +229,14 @@ height: 489px;
   font-size: 25px;
   margin-left: 80px;
   margin-top: 15rem;
+  transition: transform 0.3s ease;
+  transition: background-color 1s ease, color 1s ease;
+}
+
+.servicos1 span:hover {
+  transform: scale(1.3);
+  color: aliceblue;
+  background-color: rgb(223, 5, 243);
 }
 
 .servicos1 h1 {
@@ -216,7 +253,7 @@ height: 489px;
 
 .servicos1-imagem {
   margin-top: 8rem;
-  margin-left: 21.5rem;
+  margin-left: 22.5rem;
 }
 
 
@@ -241,7 +278,18 @@ height: 489px;
   border-radius: 24px;
   border-width: 3px;
   font-size: 25px;
+  transition: transform 0.3s ease;
+  transition: background-color 1s ease, color 1s ease;
 }
+
+.servicos2 span:hover {
+  transform: scale(1.3);
+  color: aliceblue;
+  background-color: rgb(223, 5, 243);
+}
+
+
+
 .servicos2 h1 {
   font-size: 40px;
   width: 25ch;
@@ -275,7 +323,18 @@ height: 489px;
   border-width: 3px;
   font-size: 25px;
   margin-left: 80px;
+  transition: transform 0.3s ease;
+  transition: background-color 1s ease, color 1s ease;
 }
+
+.servicos3 span:hover {
+  transform: scale(1.3);
+  color: aliceblue;
+  background-color: rgb(223, 5, 243);
+}
+
+
+
 .servicos3 h1 {
   font-size: 40px;
   width: 25ch;
@@ -310,6 +369,14 @@ height: 489px;
   border-width: 3px;
   font-size: 25px;
   margin-left: 80px;
+  transition: transform 0.3s ease;
+  transition: background-color 1s ease, color 1s ease;
+}
+
+.servicos4 span:hover {
+  transform: scale(1.3);
+  color: aliceblue;
+  background-color: rgb(223, 5, 243);
 }
 
 .servicos4 h1 {
@@ -348,7 +415,19 @@ height: 489px;
   border-width: 3px;
   font-size: 25px;
   margin-left: 80px;
+  transition: transform 0.3s ease;
+  transition: background-color 1s ease, color 1s ease;
 }
+
+.servicos5 span:hover {
+  transform: scale(1.3);
+  color: aliceblue;
+  background-color: rgb(223, 5, 243);
+}
+
+
+
+
 
 .servicos5 h1, p {
   margin-left: 80px;
