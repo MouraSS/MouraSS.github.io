@@ -201,11 +201,13 @@ height: 489px;
   margin-left: 500px;
   display: inline-block;
   margin-bottom: 15rem;
+  transition: color 0.3s ease;
 }
 
 .rodape-meio h1 {
   font-size: 32px;
   max-width: 80ch;
+  color: black;
 }
 
 .rodape-p {
@@ -626,6 +628,7 @@ margin-left: 80px;
   display: flex;
   color: black;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .final a:hover {
@@ -653,7 +656,9 @@ margin-left: 80px;
 }
 
 .rodapee{
+  font-size: 20px;
   margin-top: 8rem;
+  margin-bottom: 3rem;
 }
 
 .rodapee:hover {
