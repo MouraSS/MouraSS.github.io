@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 1000rem;
 }
 
 ul {
@@ -198,9 +197,6 @@ height: 489px;
   opacity: 0.8;
 }
 
-
-
-
 .rodape-meio {
   margin-left: 500px;
   display: inline-block;
@@ -275,7 +271,7 @@ height: 489px;
 
 .servicos1-imagem {
   margin-top: 8rem;
-  margin-left: 22.5rem;
+  margin-left: 24rem;
 }
 
 
@@ -460,7 +456,7 @@ height: 489px;
 }
 
 .servicos5-imagem {
-  margin-left: 20rem;
+  margin-left: 18.5rem;
 }
 
 .final1-bg {
@@ -493,7 +489,7 @@ height: 489px;
 .opcao45:hover {
   transition: transform 0.3s ease;
   transform: scale(1.2);
-}
+} 
 
 .opcao47:hover {
   transition: transform 0.3s ease;
@@ -548,5 +544,119 @@ margin-left: 80px;
 }
 
 .ajuda {
-  background-color: aqua;
+  margin-bottom: 5.5rem;
+}
+
+.ajuda h1 {
+  margin-left: 80px;
+  font-size: 40px;
+}
+
+.ajuda p {
+  font-size: 18px;
+  width: 60ch;
+}
+
+.duvidas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 80px;
+  margin-bottom: 15rem;
+}
+
+.duvidas h1 {
+  font-size: 40px;
+}
+
+.duvidas p {
+  font-size: 18px;
+  margin: 0px;
+  margin-top: -15px;
+  width: 30ch;
+}
+
+.duvidas a {
+  display: inline-block;
+  color: blueviolet;
+  font-weight: bold;
+  text-decoration: underline;
+ 
+}
+.duvidas a:hover {
+  transition: transform 0.6s ease;
+  transition: color 0.3s ease;
+  transform: scale(1.2);
+  color: palevioletred
+}
+
+.saiba {
+  margin-top:  3.2rem;
+}
+
+.enviar {
+  margin-top: 2rem;
+}
+
+.abrir-chat {
+  margin-top:  3.2rem;
+}
+
+.linha {
+  height: 3px;
+  background-color: rgb(216, 215, 215);
+  width: 100%;
+  margin-bottom: 8rem;
+}
+
+.final{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 80px;
+}
+
+.insta-final {
+  width: 30px;
+}
+
+.twitter-final {
+  width: 30px;
+}
+
+.final a {
+  display: flex;
+  color: black;
+  font-weight: bold;
+}
+
+.final a:hover {
+  padding: 10px;
+  transition: transform 0.3s ease;
+  transition: color 0.3s ease;
+  transform: translateY(-5px);
+  color: #df07cd;
+}
+
+.final img {
+  display: flex;
+  font-size: 20px;
+}
+
+.logos-finais {
+  display: flex;
+  margin-top: 2rem;
+  gap: 20px;
+}
+
+.logos-finais:hover {
+  transition: transform 0.6s ease;
+  transform: rotate(32deg);
+}
+
+.rodapee{
+  margin-top: 8rem;
+}
+
+.rodapee:hover {
+  transition: color 0.3s ease;
+  color: #df07cd;
 }
