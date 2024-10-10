@@ -32,6 +32,11 @@ a {
   width: 7%;
 }
 
+.header img:hover {
+  transition: transform 0.8s ease;
+  transform: scale(1.4);
+}
+
 .header-menu {
   padding: 16px 0px
   font-size: 1.5rem;
@@ -49,7 +54,6 @@ a {
 }
 
 .logar {
-  display: inline-block;
   margin-right: 80px;
   margin-left: 80px;
   display: inline-block;
@@ -65,6 +69,14 @@ a {
   background-color: rgb(122, 121, 121);
   transition: background-color 1.5s ease, color 1s ease;
   color: azure;
+}
+
+.menus:hover {
+  transition: background-color 1s ease, color 1s ease;
+  color: azure;
+  background-color: rgb(122, 121, 121);
+  border-width: 3px;
+  border-radius: 28px;
 }
 
 .header-logar a {
@@ -122,7 +134,7 @@ span {
 
 .criar-cor:hover {
   transition: background-color 1.5s ease, color 1s ease;
-  color: rgb(47, 12, 63);
+  color: rgb(255, 255, 255);
   background-color:rgb(250, 9, 230)
 }
 
@@ -178,6 +190,16 @@ margin-top: -30rem;
 width: 582px;
 height: 489px;
 }
+
+.imagem-intro:hover {
+  transition: transform 1s ease, opacity 1s ease;
+  opacity: 2;
+  transform: rotateY(70deg);
+  opacity: 0.8;
+}
+
+
+
 
 .rodape-meio {
   margin-left: 500px;
@@ -287,8 +309,6 @@ height: 489px;
   color: aliceblue;
   background-color: rgb(223, 5, 243);
 }
-
-
 
 .servicos2 h1 {
   font-size: 40px;
@@ -425,10 +445,6 @@ height: 489px;
   background-color: rgb(223, 5, 243);
 }
 
-
-
-
-
 .servicos5 h1, p {
   margin-left: 80px;
 }
@@ -448,7 +464,6 @@ height: 489px;
 }
 
 .final1-bg {
-  background-color: aqua;
 }
 
 .final1 h1 {
@@ -459,4 +474,79 @@ height: 489px;
 .final1 p {
   font-size: 18px;
   color: #7a7979;
+  margin-bottom: 7rem;
+}
+
+.opcoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 80px;
+  gap: 40px;
+  margin-bottom: 15rem;
+}
+
+.opcao44:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.2);
+}
+
+.opcao45:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.2);
+}
+
+.opcao47:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.2);
+}
+
+.opcao49:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.2);
+}
+
+.cadastro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 10rem;
+}
+
+.cadastro h1 {
+font-size: 40px;
+margin-left: 80px;
+}
+
+.cadastro p {
+  grid-column: 1;
+  font-size: 18px;
+}
+
+.cadastro-criar {
+  grid-column: 1;
+  margin-top: 20px;
+  margin-left: 80px;
+  padding: 17px 16px;
+  border-radius: 22px;
+  font-size: 17px;
+  width: 90px;
+  height: 26px;
+  color: aliceblue;
+  background-color: rgb(178, 6, 212)
+}
+
+.cadastro-criar:hover {
+  transition: transform 0.3s ease;
+  transition: background-color 1s ease, color 1s ease;
+  transform: scale(1.2);
+  background-color: rgb(225, 0, 255);
+}
+
+.pac {
+  margin-left: 16rem;
+  margin-top: -8rem;
+  grid-column: 2;
+}
+
+.ajuda {
+  background-color: aqua;
 }
