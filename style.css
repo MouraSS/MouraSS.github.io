@@ -2,47 +2,35 @@ body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
-
 a {
   text-decoration: none;
 }
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
 }
-
 .header-bg {
   margin-bottom: 0rem;
   padding-top: 24px;
   padding-bottom: 15rem;
 }
-
 .header img {
   padding-left: 80px;
   width: 7%;
 }
-
-.header img:hover {
-  transition: transform 0.8s ease;
-  transform: scale(1.4);
-}
-
 .header-menu {
   padding: 16px 0px
   font-size: 1.5rem;
   display: flex;
   gap: 50px;
 }
-
 .header-menu a {
   display: inline-block;
   padding: 1.2rem;
@@ -51,7 +39,6 @@ a {
   display: flex;
   gap: 120px;
 }
-
 .logar {
   margin-right: 80px;
   margin-left: 80px;
@@ -61,7 +48,6 @@ a {
   border-radius: 28px;
   transition: background-color 1.5s ease, color 1s ease;
 }
-
 .header-logar a:hover {
   border-width: 3px;
   border-radius: 28px;
@@ -69,7 +55,6 @@ a {
   transition: background-color 1.5s ease, color 1s ease;
   color: azure;
 }
-
 .menus:hover {
   transition: background-color 1s ease, color 1s ease;
   color: azure;
@@ -77,52 +62,43 @@ a {
   border-width: 3px;
   border-radius: 28px;
 }
-
 .header-logar a {
   font-size: 25px;
   color: rgb(0, 0, 0);
   padding: 1.2rem;
 }
-
 .introducao-bg {
 padding-bottom: 15rem;
 }
-
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 .introducao h1 {
   grid-column: 1;
   font-size: 50px;
   margin-left: 80px;
   max-width: 20ch;
 }
-
 span {
   color: blueviolet;
 }
-
 .introducao p {
   grid-column: 1;
   font-size: 18px;
   margin-left: 80px;
   max-width: 60ch;
 }
-
 .introducao ul {
   display: inline-block;
   grid-column: 1;
   margin-left: 60px;
 }
-
 .introducao ul {
   display: flex;
   padding: 20px;
   gap: 20px;
 }
-
 .criar-cor {
   color: rgb(255, 255, 255);
   display: inline-block;
@@ -130,13 +106,11 @@ span {
   padding: 20px 40px;
   border-radius: 24px;
 }
-
 .criar-cor:hover {
   transition: background-color 1.5s ease, color 1s ease;
   color: rgb(255, 255, 255);
   background-color:rgb(250, 9, 230)
 }
-
 .criar-border {
   color: black;
   display: inline-block;
@@ -145,98 +119,86 @@ span {
   border-width: 3px;
   border-radius: 28px;
 }
-
 .criar-border:hover {
   transition: background-color 1.5s ease, color 1s ease;
   color: rgb(255, 255, 255);
   background-color: rgb(221, 15, 248);
 }
-
 .logos-sociais {
   display: inline-block;
   grid-column: 1;
   margin-left: 80px;
-
 }
-
 .instagram-logo {
   width: 2.2rem;
   transition: transform 1s ease;
 }
-
 .instagram-logo:hover {
   transform: rotate(360deg);
 }
-
 .twitter-logo {
   width: 2.2rem;
   margin-left: 2rem;
   transition: transform 1s ease;
 }
-
 .twitter-logo:hover {
   transform: rotate(360deg);
 }
-
 .introducao-imagem {
   display: inline-block
   grid-column: 2;
 }
-
 .imagem-intro {
   margin-left: 17rem;
 margin-top: -30rem;
 width: 582px;
 height: 489px;
 }
-
-.imagem-intro:hover {
-  transition: transform 1s ease, opacity 1s ease;
-  opacity: 2;
-  transform: rotateY(70deg);
-  opacity: 0.8;
-}
-
 .rodape-meio {
   margin-left: 500px;
   display: inline-block;
   margin-bottom: 15rem;
   transition: color 0.3s ease;
 }
-
 .rodape-meio h1 {
   font-size: 32px;
   max-width: 80ch;
   color: black;
 }
-
 .rodape-p {
   color: rgb(109, 107, 107);
   margin-left: 200px;
   font-size: 26px;
 }
-
 .p-inferior {
   color: rgb(109, 107, 107);
   margin-left: 150px;
   max-width: 62ch;
   font-size: 21px; 
 }
-
-.servicos h1 {
-  margin-bottom: 0px;
-  color: blueviolet;
-  font-size: 60px;
-  margin-left: 80px;
-
+.nossos-servicos {
 }
-
-.servicos-bg {
+.container-servicos1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 15rem;
 }
-
+.servicos {
+  margin-left: 80px;
+  font-size: 40px;
+  color: blueviolet;
+}
+.servicos1 {
+margin-bottom: 0px;
+color: blueviolet;
+font-size: 60px;
+margin-left: 80px;
+}
+.servicos1 h1 {
+  font-size: 40px;
+  width: 25ch;
+  margin-left: 80px;
+}
 .servicos1 span {
   display: inline-block;
   color: blueviolet;
@@ -249,45 +211,25 @@ height: 489px;
   font-size: 25px;
   margin-left: 80px;
   margin-top: 15rem;
-  transition: transform 0.3s ease;
-  transition: background-color 1s ease, color 1s ease;
 }
-
-.servicos1 span:hover {
-  transform: scale(1.3);
-  color: aliceblue;
-  background-color: rgb(223, 5, 243);
-}
-
-.servicos1 h1 {
-  font-size: 40px;
-  width: 25ch;
-  margin-left: 80px;
-}
-
 .servicos1 p {
   margin-left: 0px;
   color: #817f7f;
   font-size: 18px;
 }
-
 .servicos1-imagem {
   margin-top: 8rem;
   margin-left: 24rem;
 }
-
-
-.servicos2-bg {
+.nossos-servicos2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-column: 1fr 1fr;
   margin-bottom: 15rem;
 }
-
 .servicos2-img {
   margin-top: -5rem;
   margin-left: 80px;
 }
-
 .servicos2 span {
   display: inline-block;
   color: blueviolet;
@@ -298,38 +240,33 @@ height: 489px;
   border-radius: 24px;
   border-width: 3px;
   font-size: 25px;
-  transition: transform 0.3s ease;
-  transition: background-color 1s ease, color 1s ease;
 }
-
-.servicos2 span:hover {
-  transform: scale(1.3);
-  color: aliceblue;
-  background-color: rgb(223, 5, 243);
+.servicos2 {
+  grid-column: 2;
 }
-
 .servicos2 h1 {
   font-size: 40px;
   width: 25ch;
 }
-
 .servicos2 p {
   margin-left: -0px;
   font-size: 18px;
   width: 60ch;
   color: rgb(145, 143, 143);
 }
-
 .servicos2 {
   margin-left: 20rem;
 }
-
+.nossos-servicos3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 15rem;
+}
 .servicos3-bg {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 15rem;
 }
-
 .servicos3 span {
   display: inline-block;
   color: blueviolet;
@@ -341,41 +278,29 @@ height: 489px;
   border-width: 3px;
   font-size: 25px;
   margin-left: 80px;
-  transition: transform 0.3s ease;
-  transition: background-color 1s ease, color 1s ease;
 }
-
-.servicos3 span:hover {
-  transform: scale(1.3);
-  color: aliceblue;
-  background-color: rgb(223, 5, 243);
-}
-
-
-
 .servicos3 h1 {
   font-size: 40px;
   width: 25ch;
   margin-left: 80px;
 }
-
 .servicos3 p {
  margin-left: -20px;
   font-size: 18px;
   width: 60ch;
   margin-left: 80px;
 }
-
 .servicos3-img {
   margin-left: 16.5rem;
-}
-
-.servicos4-bg {
+} 
+.nossos-servicos4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 15rem;
 }
-
+.servicos4 {
+  margin-left: 15rem;
+}
 .servicos4 span {
   display: inline-block;
   color: blueviolet;
@@ -387,41 +312,23 @@ height: 489px;
   border-width: 3px;
   font-size: 25px;
   margin-left: 80px;
-  transition: transform 0.3s ease;
-  transition: background-color 1s ease, color 1s ease;
 }
-
-.servicos4 span:hover {
-  transform: scale(1.3);
-  color: aliceblue;
-  background-color: rgb(223, 5, 243);
-}
-
 .servicos4 h1 {
   margin-left: 80px;
   width: 25ch;
   font-size: 40px;
 }
-
 .servicos4 p {
   width: 55ch;
   font-size: 18px;
 }
-
 .servicos4-imagem {
   margin-left: 80px;
 }
-
-.servicos4 {
-  margin-left: 15rem;
-}
-
-.servicos5-bg {
+.nossos-servicos5 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 15rem;
 }
-
 .servicos5 span {
   display: inline-block;
   color: blueviolet;
@@ -433,48 +340,32 @@ height: 489px;
   border-width: 3px;
   font-size: 25px;
   margin-left: 80px;
-  transition: transform 0.3s ease;
-  transition: background-color 1s ease, color 1s ease;
 }
-
-.servicos5 span:hover {
-  transform: scale(1.3);
-  color: aliceblue;
-  background-color: rgb(223, 5, 243);
-}
-
 .servicos5 h1, p {
   margin-left: 80px;
 }
-
 .servicos5 h1 {
   width: 25ch;
   font-size: 40px;
 }
-
 .servicos5 p {
   width: 55ch;
   font-size: 18px;
 }
-
 .servicos5-imagem {
   margin-left: 18.5rem;
 }
-
 .final1-bg {
 }
-
 .final1 h1 {
   font-size: 60px;
   margin-left: 80px;
 }
-
 .final1 p {
   font-size: 18px;
   color: #7a7979;
   margin-bottom: 7rem;
 }
-
 .opcoes {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -482,43 +373,19 @@ height: 489px;
   gap: 40px;
   margin-bottom: 15rem;
 }
-
-.opcao44:hover {
-  transition: transform 0.3s ease;
-  transform: scale(1.2);
-}
-
-.opcao45:hover {
-  transition: transform 0.3s ease;
-  transform: scale(1.2);
-} 
-
-.opcao47:hover {
-  transition: transform 0.3s ease;
-  transform: scale(1.2);
-}
-
-.opcao49:hover {
-  transition: transform 0.3s ease;
-  transform: scale(1.2);
-}
-
 .cadastro {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 10rem;
 }
-
 .cadastro h1 {
 font-size: 40px;
 margin-left: 80px;
 }
-
 .cadastro p {
   grid-column: 1;
   font-size: 18px;
 }
-
 .cadastro-criar {
   grid-column: 1;
   margin-top: 20px;
@@ -531,137 +398,86 @@ margin-left: 80px;
   color: aliceblue;
   background-color: rgb(178, 6, 212)
 }
-
-.cadastro-criar:hover {
-  transition: transform 0.3s ease;
-  transition: background-color 1s ease, color 1s ease;
-  transform: scale(1.2);
-  background-color: rgb(225, 0, 255);
-}
-
 .pac {
   margin-left: 16rem;
   margin-top: -8rem;
   grid-column: 2;
 }
-
 .ajuda {
   margin-bottom: 5.5rem;
 }
-
 .ajuda h1 {
   margin-left: 80px;
   font-size: 40px;
 }
-
 .ajuda p {
   font-size: 18px;
   width: 60ch;
 }
-
 .duvidas {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-left: 80px;
   margin-bottom: 15rem;
 }
-
 .duvidas h1 {
   font-size: 40px;
 }
-
 .duvidas p {
   font-size: 18px;
   margin: 0px;
   margin-top: -15px;
   width: 30ch;
 }
-
 .duvidas a {
   display: inline-block;
   color: blueviolet;
   font-weight: bold;
   text-decoration: underline;
- 
 }
-.duvidas a:hover {
-  transition: transform 0.6s ease;
-  transition: color 0.3s ease;
-  transform: scale(1.2);
-  color: palevioletred
-}
-
 .saiba {
   margin-top:  3.2rem;
 }
-
 .enviar {
   margin-top: 2rem;
 }
-
 .abrir-chat {
   margin-top:  3.2rem;
 }
-
 .linha {
   height: 3px;
   background-color: rgb(216, 215, 215);
   width: 100%;
   margin-bottom: 8rem;
 }
-
 .final{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-left: 80px;
 }
-
 .insta-final {
   width: 30px;
 }
-
 .twitter-final {
   width: 30px;
 }
-
 .final a {
   display: flex;
   color: black;
   font-weight: bold;
   font-size: 20px;
 }
-
-.final a:hover {
-  padding: 10px;
-  transition: transform 0.3s ease;
-  transition: color 0.3s ease;
-  transform: translateY(-5px);
-  color: #df07cd;
-}
-
 .final img {
   display: flex;
   font-size: 20px;
 }
-
 .logos-finais {
   display: flex;
   margin-top: 2rem;
   gap: 20px;
 }
-
-.logos-finais:hover {
-  transition: transform 0.6s ease;
-  transform: rotate(32deg);
-}
-
 .rodapee{
   font-size: 20px;
   margin-top: 8rem;
   margin-bottom: 3rem;
-}
-
-.rodapee:hover {
-  transition: color 0.3s ease;
-  color: #df07cd;
 }
