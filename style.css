@@ -48,20 +48,6 @@ a {
   border-radius: 28px;
   transition: background-color 1.5s ease, color 1s ease;
 }
-.header-logar a:hover {
-  border-width: 3px;
-  border-radius: 28px;
-  background-color: rgb(122, 121, 121);
-  transition: background-color 1.5s ease, color 1s ease;
-  color: azure;
-}
-.menus:hover {
-  transition: background-color 1s ease, color 1s ease;
-  color: azure;
-  background-color: rgb(122, 121, 121);
-  border-width: 3px;
-  border-radius: 28px;
-}
 .header-logar a {
   font-size: 25px;
   color: rgb(0, 0, 0);
@@ -106,11 +92,6 @@ span {
   padding: 20px 40px;
   border-radius: 24px;
 }
-.criar-cor:hover {
-  transition: background-color 1.5s ease, color 1s ease;
-  color: rgb(255, 255, 255);
-  background-color:rgb(250, 9, 230)
-}
 .criar-border {
   color: black;
   display: inline-block;
@@ -118,11 +99,6 @@ span {
   border: 1px solid rgb(192, 192, 192);
   border-width: 3px;
   border-radius: 28px;
-}
-.criar-border:hover {
-  transition: background-color 1.5s ease, color 1s ease;
-  color: rgb(255, 255, 255);
-  background-color: rgb(221, 15, 248);
 }
 .logos-sociais {
   display: inline-block;
@@ -133,16 +109,10 @@ span {
   width: 2.2rem;
   transition: transform 1s ease;
 }
-.instagram-logo:hover {
-  transform: rotate(360deg);
-}
 .twitter-logo {
   width: 2.2rem;
   margin-left: 2rem;
   transition: transform 1s ease;
-}
-.twitter-logo:hover {
-  transform: rotate(360deg);
 }
 .introducao-imagem {
   display: inline-block
@@ -480,4 +450,93 @@ margin-left: 80px;
   font-size: 20px;
   margin-top: 8rem;
   margin-bottom: 3rem;
+}
+
+
+@media screen and (max-width: 450px) {
+
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: -4rem;
+  }
+  .header a {
+    display: none;
+  }
+  .header img {
+    margin-left: -4rem;
+    width: 8rem;
+  }
+.introducao p {
+font-size: 20px;
+margin-left: 1rem;
+max-width: 30ch;
+margin-top: -7rem;
+}
+.introducao h1 {
+  font-size: 30px;
+  margin-left: 1rem;
+  max-width: 25ch;
+  margin-top: -4.5rem;
+}
+.criar-cor {
+  display: inline-block;
+  margin-left: -4.5rem;
+  width: 6rem;
+  font-size: 18px;
+}
+.criar-border {
+  font-weight: bold;
+  font-size: 20px;
+}
+.logos-sociais {
+  display: none;
+}
+.imagem-intro {
+  margin-top: 10rem;
+  margin-left: -23rem;
+  width: 345px;
+  height: 293px;
+  margin-bottom: -8rem;
+}
+.rodape-meio {
+  margin-left: -11.5rem;
+  max-width: 100ch;
+}
+.rodape-p {
+  max-width: 80ch;
+  font-size: 18px;
+}
+.rodape-meio h1 {
+  font-size: 22px;
+  max-width: 25ch;
+  margin-left: 13.5rem;
+}
+.p-inferior {
+  font-size: 22px;
+  max-width: 25ch;
+  margin-left: 14rem;
+}
+.servicos {
+  margin-top: -13rem;
+  margin-left: 2rem;
+  max-width: 30ch;
+font-size: 24px;
+}
+.servicos1 span {
+  margin-top: 3rem;
+margin-left: -3rem;
+}
+.servicos1 h1 {
+  font-size: 24px;
+margin-left: -3rem;
+}
+.servicos1 p {
+  font-size: 16px;
+}
+.servicos1-imagem {
+width: 200px;
+height: 200px;
+margin-left: -25rem;
+}
 }
