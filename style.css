@@ -194,7 +194,7 @@ border: 1px solid #B852FF;
   height: 407px;
   top: 134px;
   margin-top: -4rem;
-  margin-left: 33rem;
+  margin-left: 30rem;
   margin-right: 80px;
 }
 .container-2 {
@@ -249,7 +249,7 @@ border: 1px solid #B852FF;
   width: 60ch;
 }
 .servicos-3-imagem {
-  margin-left: 400px;
+  margin-left: 350px;
 }
 .container-4 {
   display: grid;
@@ -349,7 +349,7 @@ border: 1px solid #B852FF;
 .ajuda {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 400px;
+  gap: 360px;
 }
 .ajuda h1 {
   font-size: 24px;
